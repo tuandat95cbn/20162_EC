@@ -198,7 +198,96 @@ Bán thuật toán gồm:
 \item Thuật toán 
 \item Khả năng tính toán 
 \end{itemize}
-Tức là: Cung cấp các service thuật toán online hướng tới các khách hàng doạnh nghiệp cần yêu cầu thuật toán đặc thù.
+Tức là: Cung cấp các hệ thống service thuật toán online hướng tới các khách hàng doạnh nghiệp cần yêu cầu thuật toán đặc thù.
+\end{frame}
+\begin{frame}{Mục tiêu và cách thức hoạt động của hệ thống}
+
+\end{frame}
+\begin{frame}{Hình thức hoạt động của hệ thống}
+Thiết kế mô hình hoạt động theo web service cung cấp các hàm cho khách hàng có thể gọi up dữ liệu vào và lấy kết quả. Cũng như có thể quản lý và phân tán tài nguyên cho các thuật toán một cách hợp lý.
+
+\end{frame}
+\begin{frame}{Giao diện hoạt động}
+Xây dựng website thương mại điện tử mà ở đó hàng hóa chính là các thuật toán. Khách hàng có thể tìm kiếm đặt hàng hoặc thử hệ thống
+\end{frame}
+\begin{frame}{Hàng hóa(Các chức năng chính)}
+\begin{enumerate}
+\item Nhóm bài toán tối ưu hóa
+\begin{itemize}
+\item Lập lịch sản xuất
+\item Tối ưu hóa kho cảng
+\item Lập lịch trình tối ưu
+\item ...
+\end{itemize}
+\item Nhóm bài toán xử lý ngôn ngữ tự nhiên
+\begin{itemize}
+\item Công cụ tách từ
+\item Phân tích cú pháp
+\item Phân tích quan điểm
+\item Truy vấn từ điển
+\item ...
+\end{itemize}
+\item Nhóm bài toán xử lý dữ liệu
+\begin{itemize}
+\item Tìm thói quen nhu cầu thị trường(áp dụng cho các công ty thương mại)
+\item Gợi ý sản phẩm cho người dùng
+\item Nhận dạng ảnh, khuôn mặt, đối tượng, chữ viết tay...
+\item Xử lý tiếng nói, 
+\item ...
+\end{itemize}
+\item Bài toán khách hàng tự thiết lập.
+\end{enumerate}
+\end{frame}
+\begin{frame}{Khách hàng}
+\begin{itemize}
+\item Các công ty, trang web  thương mại, xem phim/đọc truyện có lượng dữ liệu lớn về người dùng và mong muốn: đưa ra các gợi ý tốt hơn cho người mua/xem, tìm hiểu thói quen khách hàng và nhu cầu về các sản phẩm, tìm ra các sản phẩm tiềm năng, nhu cầu lớn.
+\item Các trang web muốn đưa thêm phần xử lý âm thanh, ngôn ngữ tự nhiên làm thân thiện và đa dạng hóa trải nghiệm người dùng.
+\item Các khách hàng có yêu cầu, mong muốn cụ thể về mặt tối ưu, các tính năng mới liên quan sâu đến thuật toán và việc xử lý dữ liệu cho trang web của mình nhưng chưa có giải pháp hợp lí cho thuật toán tạo dựng các tính năng đó.
+\item Các công ty có lượng nhân công và công việc phức tạp, mong muốn sắp xếp công việc theo những lịch trình tối ưu phù hợp với mô hình kinh doanh.
+\end{itemize}
+\end{frame}
+\begin{frame}{Giao dịch thanh toán}
+Mô hình xem xét:
+\begin{itemize}
+\item Dựa trên tài khoản khách hàng, mỗi khách hàng có hợp đồng với công ty được cung cấp cho một key, dựa trên key này mà được sử dụng các tính năng số lần/thời gian  được cung cấp tương ứng . Có thể đăng ký thêm các tính năng, gia hạn thêm thời gian, tăng thêm số lần,  như vậy cần thêm chi phí tương ứng.
+\item Với các khách hàng cá nhân lượng dữ liệu trung bình key được tạo và bán ra giống như các key bản quyền của BKAV, Karpersky,.... Các key này được bán rộng rãi trên toàn quốc tại các trung tâm bán hàng của công ty, các cá nhân có thể mua và kích hoạt tài khoản theo loại key. Các key chỉ được kích hoạt cho 1 tài khoản và có thời hạn trong 1 năm. 
+\item Với các khách hàng doanh nghiệp có lượng dữ liệu lớn, cần thông báo với phía công ty để lập hợp đồng, tạo và cung cấp key cho doanh nghiệp, các key này được sử dụng trên một số lượng các tài khoản theo hợp đồng.
+
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Chính sách}
+\begin{itemize}
+\item Cung cấp cho người sử dụng free với các bộ dữ liệu nhỏ.
+\item Với dữ liệu đầu vào lớn phải trả tiền.
+\item Người sử dụng có thể trả tiền theo các mức quy định về dữ liệu, số lần, số ngày(tháng năm).
+\item Với chức năng xử lý tùy chọn khách hàng sẽ liên hệ trực tiếp với công ti để định nghĩa bài toán rõ ràng - chi phí sẽ đắt đỏ.
+\end{itemize}
+\end{frame}
+\begin{frame}{Marketing}
+\begin{itemize}
+\item Cho phép các tài khoản mới đăng ký được sử dụng free các tính năng trong bản professional trong 30 ngày, sau 30 ngày cần phải mua key nếu muốn tiếp tục sử dụng các tính năng.
+\item Mỗi năm công ty có các đợt khuyến mãi, trong đó cung cấp các key free cho các khách hàng với giới hạn tính năng và thời gian sử dụng.
+\item Với các khách hàng mua bản trả phí và khách hàng doanh nghiệp: có các khuyến mãi khi mua các key kích hoạt trong nhiều năm như giảm \%, càng mua nhiều năm càng giảm.
+
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Hậu mãi/ Bảo hành}
+\begin{itemize}
+\item Khách hàng sử dụng có lượng dữ liệu nhỏ và sử dụng các thuật toán cố định đơn giản sẵn có: free và phải tuân thủ các quy định.
+\item Khách hàng có dữ liệu lớn và sử dụng các thuật toán sẵn có (học máy, gợi ý, lập lịch,...) : cần trả phí. khi có lỗi, trục trặc được thông báo sẽ được các chuyên viên tham gia điều chỉnh, xử lý.
+\item Khách hàng có dữ liệu lớn, thuật toán và phương thức xử lý không có sẵn mà dựa trên yêu cầu bài toán cụ thể đưa ra: chi phí đắt đỏ, các chuyên gia hàng đầu sẽ tham gia để xây dựng phương án, triển khai vận hành. bất cứ khi nào có vấn đề trục trặc sẽ được các chuyên viên hoặc chuyên gia trực tiếp khảo sát, xử lý.
+\item Với trả phí: thời hạn bảo hành được thỏa thuận, có thể gia hạn khi hết thời hạn.
+
+\end{itemize}
+\end{frame}
+\begin{frame}{Vấn đề bảo mật}
+\begin{itemize}
+\item Các dữ liệu do khách hàng cung cấp để xử lý, phân tích được hoàn toàn bảo mật, được công ty cam kết giữ bí mật trong khoảng thời gian mà khách hàng yêu cầu.
+\item Vi phạm cam kết, công ty sẽ chịu phạt và bồi thường theo hợp đồng.
+
+\end{itemize}
 \end{frame}
 \begin{frame}{Tài liệu tham khảo}
 \section*{Tài liệu tham khảo}
