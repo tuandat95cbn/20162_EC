@@ -136,7 +136,7 @@ Nguyễn Hữu Hoàng \\
 %\inst{1}% 
 }
 
-\logo{\includegraphics[scale=0.05]{hust.jpg} \vspace{220pt}}
+\logo{\includegraphics[scale=0.04]{hust.jpg} \vspace{220pt}}
 
 \begin{document}
 
@@ -148,7 +148,7 @@ Nguyễn Hữu Hoàng \\
 \tableofcontents
 \end{frame}
 
-\begin{frame}{Tổng quan}
+\begin{frame}{Thực trạng}
 \section{ Đặt vấn đề}
 \subsection{Thực trạng}
 \bi 
@@ -207,6 +207,9 @@ Vấn đề : Cạnh tranh Google,  Facebook ... \\ Doanh nghiệp làm phầm m
 \end{figure}
 \end{frame}
 \begin{frame}{Bùng nổ Internet}
+\begin{center}
+\includegraphics[scale=0.2]{internet.jpg}
+\end{center}
 \begin{itemize}
 \item Càng ngày tốc độ mạng càng nhanh.
 \item Dữ liệu liên tục thay đổi nhanh
@@ -222,7 +225,9 @@ Bán thuật toán gồm:
 \end{itemize}
 Tức là: Cung cấp các hệ thống {\color{hilight}"Web Service"} thuật toán online hướng tới các khách hàng doạnh nghiệp cần yêu cầu thuật toán đặc thù.
 \end{frame}
-
+\begin{frame}
+\includegraphics[scale=0.7]{R.jpg}
+\end{frame}
 
 \begin{frame}{Sản phẩm cung cấp}
 \section{Sản phẩm}
@@ -235,9 +240,17 @@ Tức là: Cung cấp các hệ thống {\color{hilight}"Web Service"} thuật t
 \item Bài toán gợi ý sản phẩm (sách, phim,...)
 \item Bài toán khách hàng tự thiết lập(hệ trợ giúp quyết định, dự báo nhu cầu thị trường...)
 \end{enumerate}
+\includegraphics[scale=0.2]{VHR.png}
+\includegraphics[scale=0.2]{CD.jpg}
+\includegraphics[scale=0.1]{NPL.png}
+\includegraphics[scale=0.1]{ML.jpg}
 \end{frame}
 \begin{frame}{Khách hàng}
 \section{Khách hàng hướng tới}
+\begin{center}
+\includegraphics[scale=0.2]{B2B.jpg}
+\end{center}
+
 \begin{itemize}
 \item Các công ty giao vận cần tối ưu lịch trình.
 \item Các công ty sản xuất cần lập lịch sản xuất, tối ưu kho cảng.
@@ -247,6 +260,7 @@ Tức là: Cung cấp các hệ thống {\color{hilight}"Web Service"} thuật t
 \item Các công ty yêu cầu các giải pháp đặc thù: dự báo thị trường, trợ giúp quyết định kinh doanh, ... 
 
 \end{itemize}
+
 \end{frame}
 \begin{frame}{Tại sao ý tưởng lại có tiềm năng}
 \section{Tính khả thi }
@@ -257,12 +271,24 @@ Tức là: Cung cấp các hệ thống {\color{hilight}"Web Service"} thuật t
 \item Tạo cơ hội đưa các bài toán nghiên cứu ra ứng dụng thực tế..
 \end{itemize} 
 \end{frame}
-\begin{frame}{Giao diện hoạt động}
+\begin{frame}{Mô tả cách thức hoạt động của hệ thống}
 \section{Mô tả cách thức hoạt động của hệ thống}
+\begin{center}
+\includegraphics[scale=0.5]{TK.jpg}
+\end{center}
+
+\end{frame}
+\begin{frame}{Giao diện hoạt động}
+
 \subsection{Giao diện hoạt động}
 Xây dựng website thương mại điện tử mà ở đó hàng hóa chính là các thuật toán. Khách hàng có thể tìm kiếm đặt hàng.\\
 
 Trên website có thông tin mô tả về các api mà hệ thống cung cấp cũng như tài liệu hướng dẫn sử dụng, demo hệ thống v.v
+\end{frame}
+\begin{frame}{Quy trình hoạt động}
+\begin{center}
+\includegraphics[scale=0.4]{quytrinhhoatdong.png}\\
+\end{center}
 \end{frame}
 \begin{frame}{Quy trình hoạt động}
 \subsection{Quy trình hoạt động}
@@ -276,10 +302,33 @@ Trên website có thông tin mô tả về các api mà hệ thống cung cấp 
 \item Nếu key và dữ liệu được chấp nhận, server xử lý và trả kết quả lại cho client. Nếu có thể xử lý ngay thời điểm đó thì trả lại luôn cho phía client. Nếu dữ liệu lớn và cần có thời gian lâu, server sẽ thông báo thời gian ước lượng cho phía client, tới thời điểm đó client request lên và nhận kết quả trả về. 
 
 \end{enumerate}
+\end{frame}
 
+\begin{frame}{Quy trình đăng ký}
+\begin{center}
+\begin{figure}
+\includegraphics[scale=0.4]{dangky.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+\begin{frame}{Quy trình sử dụng}
+\begin{center}
+\begin{figure}
+\includegraphics[scale=0.4]{sudung.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+\begin{frame}{Giao dịch thanh toán}
+\begin{center}
+\includegraphics[scale=0.4]{giaodich.jpg}
+\end{center}
 \end{frame}
 \begin{frame}{Giao dịch thanh toán}
 \subsection{Giao dịch thanh toán}
+
+
 Người dùng đăng ký tài khoản trên website của công ty và yêu cầu nhận key.\\
 Công ty sẽ cung cấp hai loại key:
 \begin{itemize}
@@ -303,9 +352,14 @@ Các key này có giới hạn về thời gian hoặc số lần sử dụng. H
 Các công ty yêu cầu các bài toán đặc thù cần thiết kế giải pháp thì công ty sẽ thiết lập hợp đồng với họ, các chính sách và chi phí là theo thỏa thuận của hai bên.
 
 \end{frame}
-
+\begin{frame}{Marketing}
+\begin{center}
+\includegraphics[scale=0.7]{marketing.jpg}\\
+\end{center}
+\end{frame}
 \begin{frame}{Marketing}
 \section{Marketing}
+
 \begin{itemize}
 \item Công ty thực hiện quảng cáo qua Facebook và Google.
 
@@ -370,8 +424,9 @@ Các công ty yêu cầu các bài toán đặc thù cần thiết kế giải p
 \item Kêu gọi vốn đầu tư.
 \end{itemize}
 \end{frame}
-\begin{frame}{Tài liệu tham khảo}
-\section*{Tài liệu tham khảo}
-
+\begin{frame}
+\begin{center}
+\includegraphics[scale=0.4]{thanks.jpg}\\
+\end{center}
 \end{frame}
 \end{document}
