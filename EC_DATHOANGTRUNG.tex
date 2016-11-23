@@ -109,14 +109,7 @@
 %\usemintedstyle{monokai}
 %\newminted{cpp}{fontsize=\footnotesize}
 
-% Graph styles
-\tikzstyle{vertex}=[circle,fill=black!50,minimum size=15pt,inner sep=0pt, font=\small]
-\tikzstyle{selected vertex} = [vertex, fill=red!24]
-\tikzstyle{edge} = [draw,thick,-]
-\tikzstyle{dedge} = [draw,thick,->]
-\tikzstyle{weight} = [font=\scriptsize,pos=0.5]
-\tikzstyle{selected edge} = [draw,line width=2pt,-,red!50]
-\tikzstyle{ignored edge} = [draw,line width=5pt,-,black!20]
+% Graph styles]
 
 %gets rid of bottom navigation bars
 \setbeamertemplate{footline}[frame number]{}
@@ -325,40 +318,57 @@ Các công ty yêu cầu các bài toán đặc thù cần thiết kế giải p
 
 \end{frame}
 \begin{frame}{Hậu mãi/ Bảo hành}
+\begin{center}
+\includegraphics[scale=0.5]{8.jpg}
+\end{center}
 \section{Hẫu mãi bảo hành}
 \begin{itemize}
 \item Khách hàng sử dụng key free cần tuân thủ các quy định và chính sách của công ty.
 
 \item Khách hàng sử dụng key trả phí khi gặp trục trặc, vấn đề sẽ được các chuyên viên tham gia điều chỉnh, xử lý.
 
-\item Khách hàng là các công ty có hợp đồng lớn với công ty: các chuyên gia sẽ tham gia quá trình khảo sát, thiết kế, triển khai vận hành; bất cứ khi nào có trục trặc sẽ được các chuyên viên hoặc chuyên gia trực tiếp khảo sát, xử lý.
-
+\item Khách hàng là các công ty có hợp đồng:
+\begin{itemize}
+\item Sẽ có các chuyên gia lành nghề tham gia khảo sát, thiết kế, triển khai vận hành.
+\item Khi nào có trục trặc công ty sẽ cử chuyên gia đến xem xét và sửa chữa.
+\end{itemize}
+%	các chuyên gia sẽ tham gia quá trình khảo sát, thiết kế, triển khai vận hành; bất cứ khi nào có trục trặc sẽ được các chuyên viên hoặc chuyên gia trực tiếp khảo sát, xử lý.%
 \end{itemize}
 \end{frame}
 \begin{frame}{Vấn đề bảo mật}
+\begin{center}
+\includegraphics[scale=0.2]{9.jpg}
+\end{center}
 \section{Bảo mật}
 \begin{itemize}
-\item Các dữ liệu do khách hàng cung cấp để xử lý, phân tích được hoàn toàn bảo mật, được công ty cam kết giữ bí mật trong khoảng thời gian mà khách hàng yêu cầu.
+\item Công ty sẽ có các chính sách bảo mật cho khách hàng:
+\begin{itemize}
+\item Khách hàng dùng key miễn phí sẽ có các khuyến cáo về bảo mật dữ liệu dữ liệu.
+\item Khách hàng dùng key bản quyền hoặc có kí kết hợp đồng với công ty thì các dữ liệu khác hàng cung cấp sẽ đc công ty cam kết giữ bí mật theo yêu cầu của khách hàng(trong khoảng thời gian khách yêu cầu).
+\end{itemize}
 \item Vi phạm cam kết, công ty sẽ chịu phạt và bồi thường theo hợp đồng.
-
 \end{itemize}
 \end{frame}
 \begin{frame}{Thách thức}
 \section{Thách thức}
-Đây là một ý tưởng mới, giải pháp cho nó cần hàm lượng công nghệ cao, nên cần quy tụ được nguồn nhân lực chất lượng cao: -> cần tìm kiếm, thu hút những người có khả năng, đặc biệt là những bạn sinh viên có khả năng tốt và mong muốn phát triển nền công nghệ Việt Nam.\\
-
-Cần có nguồn vốn để đầu tư cho server.\\
+\textbf{Con người(Nhân lực):}
+\begin{itemize}
+\item Cần có đội ngũ có đội ngũ nhân viên có tri thức cao về học máy, xử lí dữ liệu lơn,khai phá dữ liệu,\ldots
+\item Cần luôn tìm kiếm, thu hút những người có khả năng,đặc biệt là các bạn sinh viên có khả năng tốt và mong muốn phát triển công nghệ Việt Nam.
+\end{itemize}
+\textbf{Kinh phí:}
+\begin{itemize}
+\item Do nhu cầu cần tính toán và xử lí dữ liệu lớn nên cần có nguồn vốn để đầu tử cho máy móc(server)
+\item Cần có chi phí quảng cáo cho các dịch vụ của công ty. 
+\end{itemize}
 \end{frame}
 \begin{frame}{Giải pháp}
 \section{Giải pháp}
-Khi bắt đầu xây dựng, công ty sẽ sử dụng các thư viện open được cộng đồng và "người khổng lồ" như google, facebook,... public, áp dụng các thuật toán trên các mô hình được xây dựng và cung cấp api cho người dùng.\\
-
-Theo thời gian, công ty sẽ tự xây dựng các thư viện cho riêng công ty và áp dụng thuật toán trên các thư viện này.\\
-
-Demo các giải pháp cho các công ty (vận tải, sản xuất,...) để chào hàng và gọi vốn từ họ.
-
-
-
+\begin{itemize}
+\item Ban đầu xây dựng các công nghê, thư viện public bởi cộng đồng và các công ty lớn như "google, facebook,..." public để áp dụng cho các thuật toán trên các mô hình được xây dựng và cung cấp api cho người dùng.
+\item Khi có nguồn vốn sẽ tự xây dưng và phát triển thư viện riêng để áp dụng cho các bài toán.
+\item Kêu gọi vốn đầu tư.
+\end{itemize}
 \end{frame}
 \begin{frame}{Tài liệu tham khảo}
 \section*{Tài liệu tham khảo}
